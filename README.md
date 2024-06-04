@@ -5,3 +5,5 @@ Este código crea una interfaz interactiva en la que se dibuja un plano cartesia
 
 3D:
 El código crea una escena 3D interactiva usando Three.js donde los usuarios pueden añadir puntos haciendo clic, mostrar sus coordenadas actuales al mover el ratón y calcular la distancia entre dos puntos añadidos. Se dibuja una línea entre los dos puntos seleccionados y se muestra la distancia calculada. Los controles de órbita permiten la navegación en la escena, y un botón de reinicio permite limpiar la escena de puntos y líneas añadidos.
+
+Nombre: ELI RONNIE QUISPE TICONA
