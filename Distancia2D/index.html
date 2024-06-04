@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espacios Métricos y Distancias de Hamming</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Espacios Métricos y Distancias de Hamming</h1>
+    <canvas id="canvas" width="500" height="400"></canvas>
+    <div id="controls">
+        <div>
+            X: <input type="text" id="mouseX" readonly>
+            Y: <input type="text" id="mouseY" readonly>
+        </div>
+        <div id="distance">
+            Distancia: <span id="distancia"></span><br>
+            Distancia (raíz): <span id="distanciaRaiz"></span>
+        </div>
+        <button id="resetBtn">Reiniciar</button>
+    </div>
+    <div id="propiedades">
+        <h2>Propiedades de la Función de Distancia</h2>
+        <p id="positividad"></p>
+        <p id="simetria"></p>
+        <p id="desigualdad"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
